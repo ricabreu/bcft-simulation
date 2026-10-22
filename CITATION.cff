@@ -11,9 +11,9 @@ authors:
     family-names: Abreu
     email: ricardo.abreu@universidadeeuropeia.pt
     affiliation: >-
-      Instituto Português de Administração e Marketing de Lisboa (IPAM),
+      Instituto Português de Administração de Marketing de Lisboa (IPAM),
       Lisbon, Portugal
-    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add your ORCID
+    orcid: 'https://orcid.org/0000-0001-9952-2404'
 version: 1.0.0
 date-released: '2026-07-07'
 license: MIT
@@ -37,7 +37,7 @@ abstract: >-
   on the probability simplex, together with a fully reproducible Python
   pipeline, a synthetic dataset, and the compiled technical report.
 repository-code: 'https://github.com/ricabreu/bcft-simulation'
-# doi: '10.5281/zenodo.XXXXXXX'                                   # TODO: Zenodo DOI
+doi: 10.5281/zenodo.23570568
 references:
   - type: article
     title: >-

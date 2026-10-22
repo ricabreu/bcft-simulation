@@ -20,16 +20,8 @@
   "creators": [
     {
       "name": "Abreu, Ricardo",
-      "affiliation": "Instituto Português de Administração e Marketing de Lisboa (IPAM), Lisbon, Portugal"
+      "affiliation": "Instituto Português de Administração de Marketing de Lisboa (IPAM), Lisbon, Portugal",
+      "orcid": "0000-0001-9952-2404"
     }
-  ],
-  "related_identifiers": [
-    {
-      "relation": "isSupplementTo",
-      "identifier": "TODO-SSRN-URL-OR-DOI",
-      "scheme": "url",
-      "resource_type": "publication-workingpaper"
-    }
-  ],
-  "notes": "TODO before publishing: (1) add your ORCID to the creator, (2) fill the related_identifier with the SSRN URL/DOI once the conceptual paper is live."
+  ]
 }

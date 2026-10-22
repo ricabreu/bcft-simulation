@@ -3,15 +3,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
 [![reproduce](https://github.com/ricabreu/bcft-simulation/actions/workflows/reproduce.yml/badge.svg)](https://github.com/ricabreu/bcft-simulation/actions/workflows/reproduce.yml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23570568.svg)](https://doi.org/10.5281/zenodo.23570568)
 
 > **Computational companion** to *Brand Coherence Field Theory* (BCFT), the
 > conceptual working paper (SSRN). This repository contains the mathematical
 > pipeline, **executed** experiments, figures, synthetic dataset, and the
 > compiled technical report.
->
-> **Badges/links marked `XXXXXXX` and `TODO` must be filled in** once you
-> mint the Zenodo DOI (see [Releasing](#releasing-to-github--zenodo)).
 
 BCFT models brand meaning as a family of probability distributions over a
 semantic space and defines **coherence as (negative) divergence from an ideal
@@ -107,25 +104,28 @@ GitHub will surface a "Cite this repository" button from [`CITATION.cff`](CITATI
 ```
 Abreu, R. (2026). Synthetic Semantic Dynamics Under Brand Coherence Field
 Theory: A Simulation-Based Technical Report (Version 1.0.0) [Software].
-Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+Zenodo. https://doi.org/10.5281/zenodo.23570568
 
 Abreu, R. (2026). Brand Coherence Field Theory: An Information-Geometric
 Framework for Modelling Brand Meaning. Working paper (SSRN).
 ```
 
-## Releasing to GitHub + Zenodo
+## Archive and versions
 
-1. Make the GitHub repository
-   ([ricabreu/bcft-simulation](https://github.com/ricabreu/bcft-simulation))
-   public — Zenodo only archives public repositories.
-2. Add your ORCID to `CITATION.cff` and `.zenodo.json`.
-3. In [Zenodo](https://zenodo.org/account/settings/github/), toggle the
-   repository **on** to enable archiving.
-4. On GitHub, create a release tagged **`v1.0.0`**. Zenodo automatically
-   archives the release and mints a DOI.
-5. Copy the DOI into the README badge, `CITATION.cff` (`doi:`), and
-   `.zenodo.json` (`related_identifiers`), then push the update.
-6. Once SSRN is live, add its URL/DOI to the report's reference list (`report/main.tex`) and to `.zenodo.json` (`related_identifiers`).
+Version 1.0.0 is archived on Zenodo:
+[10.5281/zenodo.23570568](https://doi.org/10.5281/zenodo.23570568).
+
+To release a new version:
+
+1. Update the code/report, bump `version` in `CITATION.cff`, and add a
+   `CHANGELOG.md` entry.
+2. On the Zenodo record, choose **New version**, upload the new snapshot, and
+   reserve its DOI.
+3. Put the new DOI in the README badge and `CITATION.cff` (`doi:`), then tag
+   the release on GitHub.
+
+Once the SSRN paper is live, add its URL/DOI to the report's reference list
+(`report/main.tex`) and to the Zenodo record's *Related works*.
 
 ## License
 
