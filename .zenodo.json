@@ -1,0 +1,35 @@
+{
+  "title": "Synthetic Semantic Dynamics Under Brand Coherence Field Theory: A Simulation-Based Technical Report",
+  "description": "Computational companion to Brand Coherence Field Theory (BCFT). BCFT models brand meaning as a family of probability distributions over a semantic space and defines coherence as (negative) divergence from an ideal brand distribution on a statistical manifold. This deposit contains the formal apparatus and executed experiments: real divergences (Kullback-Leibler, Jensen-Shannon), Fisher-Rao geodesics, and natural-gradient coherence flows on the probability simplex, a fully reproducible Python pipeline (fixed seed), a synthetic brand-field dataset, generated figures, and the compiled technical report (PDF).",
+  "upload_type": "software",
+  "license": "MIT",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "brand coherence",
+    "Brand Coherence Field Theory",
+    "information geometry",
+    "Fisher-Rao metric",
+    "Kullback-Leibler divergence",
+    "Jensen-Shannon divergence",
+    "natural gradient",
+    "statistical manifold",
+    "reproducible research",
+    "computational marketing"
+  ],
+  "creators": [
+    {
+      "name": "Abreu, Ricardo",
+      "affiliation": "Instituto Português de Administração e Marketing de Lisboa (IPAM), Lisbon, Portugal"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "TODO-SSRN-URL-OR-DOI",
+      "scheme": "url",
+      "resource_type": "publication-workingpaper"
+    }
+  ],
+  "notes": "TODO before publishing: (1) add your ORCID to the creator, (2) fill the related_identifier with the SSRN URL/DOI once the conceptual paper is live."
+}

@@ -1,0 +1,7 @@
+# Extra dependencies for the optional real-data extension
+# src/run_climatebert_evaluation.py (ClimateBERT environmental_claims).
+# Install with:  pip install -r requirements-realdata.txt
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+datasets>=2.14

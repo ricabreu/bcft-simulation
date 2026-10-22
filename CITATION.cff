@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+title: >-
+  Synthetic Semantic Dynamics Under Brand Coherence Field Theory:
+  A Simulation-Based Technical Report (code, data, and report)
+message: >-
+  If you use this software, dataset, or report, please cite it
+  using the metadata below, and cite the conceptual companion paper.
+type: software
+authors:
+  - given-names: Ricardo
+    family-names: Abreu
+    email: ricardo.abreu@universidadeeuropeia.pt
+    affiliation: >-
+      Instituto Português de Administração e Marketing de Lisboa (IPAM),
+      Lisbon, Portugal
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add your ORCID
+version: 1.0.0
+date-released: '2026-07-07'
+license: MIT
+keywords:
+  - brand coherence
+  - Brand Coherence Field Theory
+  - information geometry
+  - Fisher-Rao metric
+  - Kullback-Leibler divergence
+  - natural gradient
+  - statistical manifold
+  - reproducible simulation
+  - computational marketing
+abstract: >-
+  Computational companion to Brand Coherence Field Theory (BCFT). BCFT models
+  brand meaning as a family of probability distributions over a semantic space
+  and defines coherence as (negative) divergence from an ideal brand
+  distribution on a statistical manifold. This repository provides the formal
+  apparatus and executed experiments: real divergences (Kullback-Leibler,
+  Jensen-Shannon), Fisher-Rao geodesics, and natural-gradient coherence flows
+  on the probability simplex, together with a fully reproducible Python
+  pipeline, a synthetic dataset, and the compiled technical report.
+repository-code: 'https://github.com/ricabreu/bcft-simulation'
+# doi: '10.5281/zenodo.XXXXXXX'                                   # TODO: Zenodo DOI
+references:
+  - type: article
+    title: >-
+      Brand Coherence Field Theory: An Information-Geometric Framework for
+      Modelling Brand Meaning
+    authors:
+      - given-names: Ricardo
+        family-names: Abreu
+    year: 2026
+    notes: >-
+      Conceptual companion working paper (SSRN). This repository is its
+      technical/computational companion.

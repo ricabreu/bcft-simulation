@@ -1,0 +1,24 @@
+# LaTeX build artifacts (keep main.tex and main.pdf tracked)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/_*.png
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Scratch (stray test repo, not part of the project)
+_gittest/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
