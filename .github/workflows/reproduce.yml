@@ -1,0 +1,46 @@
+name: reproduce
+
+# Reproducibility check: run the pipeline on a clean runner and confirm
+# it regenerates the figures, dataset, and results summary.
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run experiments
+        run: |
+          cd src
+          python run_experiments.py
+
+      - name: Check expected outputs exist
+        run: |
+          test -f figures/fig_exp1_monotonic.png
+          test -f figures/fig_exp2_geodesic.png
+          test -f figures/fig_exp3_flow.png
+          test -f data/synthetic_brand_field.csv
+          test -f data/results_summary.json
+          echo "All expected outputs were regenerated."
+
+      - name: Upload regenerated artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: bcft-outputs
+          path: |
+            figures/
+            data/
