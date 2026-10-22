@@ -1,0 +1,8 @@
+{
+  "durability": 0.24,
+  "environmental_stewardship": 0.3,
+  "repairability": 0.2,
+  "functional_competence": 0.18,
+  "style_aesthetics": 0.05,
+  "status_luxury": 0.03
+}

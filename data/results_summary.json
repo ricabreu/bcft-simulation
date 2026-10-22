@@ -1,0 +1,32 @@
+{
+  "seed": 20260628,
+  "exp1": {
+    "monotonic_kl_core": true,
+    "kl_core_at_max": 2.396422647438364,
+    "kl_peripheral_at_max": 0.06895243549724715,
+    "core_to_peripheral_ratio_at_max": 34.75472084715613
+  },
+  "exp2": {
+    "fisher_rao_distance_endpoints": 1.9768641778523062,
+    "geodesic_path_length": 1.9768641778518414,
+    "euclidean_path_length": 1.9929659489136498,
+    "euclidean_excess_pct": 0.8145107409101472,
+    "geodesic_matches_fr_distance": true,
+    "max_fr_deviation_euclidean_from_geodesic": 0.1201526179610742
+  },
+  "exp3": {
+    "eta": 0.25,
+    "steps": 150,
+    "max_final_kl": 1.3544720900426914e-16,
+    "converged_all": true
+  },
+  "dataset": {
+    "n_observations": 100,
+    "sources": [
+      "institutional",
+      "campaign",
+      "reviews",
+      "lifestyle"
+    ]
+  }
+}
