@@ -6,7 +6,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23570568.svg)](https://doi.org/10.5281/zenodo.23570568)
 
 > **Computational companion** to *Brand Coherence Field Theory* (BCFT), the
-> conceptual working paper (SSRN). This repository contains the mathematical
+> conceptual working paper ([SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7657059)). This repository contains the mathematical
 > pipeline, **executed** experiments, figures, synthetic dataset, and the
 > compiled technical report.
 
@@ -107,7 +107,8 @@ Theory: A Simulation-Based Technical Report (Version 1.0.0) [Software].
 Zenodo. https://doi.org/10.5281/zenodo.23570568
 
 Abreu, R. (2026). Brand Coherence Field Theory: An Information-Geometric
-Framework for Modelling Brand Meaning. Working paper (SSRN).
+Framework for Modelling Brand Meaning. SSRN Working Paper.
+https://doi.org/10.2139/ssrn.7657059
 ```
 
 ## Archive and versions
@@ -124,8 +125,9 @@ To release a new version:
 3. Put the new DOI in the README badge and `CITATION.cff` (`doi:`), then tag
    the release on GitHub.
 
-Once the SSRN paper is live, add its URL/DOI to the report's reference list
-(`report/main.tex`) and to the Zenodo record's *Related works*.
+The conceptual paper is on SSRN ([10.2139/ssrn.7657059](https://doi.org/10.2139/ssrn.7657059)).
+In the next version, add this DOI to the report's reference list
+(`report/main.tex`).
 
 ## License
 

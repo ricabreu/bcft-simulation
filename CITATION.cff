@@ -47,6 +47,8 @@ references:
       - given-names: Ricardo
         family-names: Abreu
     year: 2026
+    doi: 10.2139/ssrn.7657059
+    url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7657059'
     notes: >-
       Conceptual companion working paper (SSRN). This repository is its
       technical/computational companion.

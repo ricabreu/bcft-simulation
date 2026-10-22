@@ -23,5 +23,19 @@
       "affiliation": "Instituto Português de Administração de Marketing de Lisboa (IPAM), Lisbon, Portugal",
       "orcid": "0000-0001-9952-2404"
     }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.2139/ssrn.7657059",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/ricabreu/bcft-simulation",
+      "scheme": "url",
+      "resource_type": "software"
+    }
   ]
 }
